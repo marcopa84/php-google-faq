@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+main{
+  margin-top: 100px;
+  background-color: lime;
+}
+.wrapper{
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 75%;
+  height: 1200px;
+}
+<a href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=152065&amp;amppageIndex=0&amp;doclang=it&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=276332">decisione della Corte di giustizia dell'Unione europea</a>
