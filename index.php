@@ -48,11 +48,44 @@
   <head>
     <meta charset="utf-8">
     <title>FAQ Google</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
     <header>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <div class="header_top">
+        <a href="https://www.google.com/" class="logo">
+          <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png">
+        </a>
+        <h2>
+          <a href="">Privacy e termini</a>
+        </h2>
+      </div>
+      <div class="header_bottom">
+        <ul class="menu">
+          <li>
+            <a href="">Introduzione</a>
+          </li>
+          <li>
+            <a href="privacy">Norme sulla privacy
+            </a>
+          </li>
+          <li >
+            <a href="terms">Termini di servizio</a>
+          </li>
+          <li >
+            <a href="technologies">Tecnologie</a>
+          </li>
+          <li class="active">
+            <a href="faq">Domande frequenti</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="https://myaccount.google.com/">Account Google</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
       <div class="wrapper">
@@ -70,6 +103,7 @@
       </div>
     </main>
     <footer>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
     </footer>
   </body>

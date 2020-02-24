@@ -3,22 +3,74 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto' ;
+}
+a{
+  text-decoration: none;
+}
 header{
   position: fixed;
   top:0;
   left:0;
   height: 100px;
-  width: 100%;
-  background-color: red;
+  width: 95vw;
+  margin-left: 1vw;
+  margin-right: 4vw;
+}
+header a,
+header a:visited {
+  color: #5f6368;
+}
+.header_top{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 50px;
+}
+.header_top h2{
+  margin-left: 10px;
+  color: #5f6368;
+  font-weight: 400;
+}
+.header_top img{
+  vertical-align: bottom;
+}
+.header_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 50px;
+}
+.menu{
+  display: flex;
+}
+.menu li{
+  margin-right: 20px;
+  font-weight: 500;
+}
+.menu li.active{
+  border-bottom: 3px solid #3367d6;
+}
+.menu li.active a{
+  color: #3367d6;
+}
+.header_bottom li{
+  list-style: none;
 }
 main{
   margin-top: 100px;
-  background-color: lime;
+  border-top: 1px solid grey;
+  /* background-color: lime; */
 }
 .wrapper{
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 80px 0;
   width: 75%;
-  height: 1200px;
 }
-<a href="http://curia.europa.eu/juris/document/document.jsf?text=&amp;docid=152065&amp;amppageIndex=0&amp;doclang=it&amp;mode=lst&amp;dir=&amp;occ=first&amp;part=1&amp;cid=276332">decisione della Corte di giustizia dell'Unione europea</a>
+main h2{
+  margin: 60px 0;
+}
+main p{
+  margin: 30px 0;
+}
