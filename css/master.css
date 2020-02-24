@@ -14,9 +14,10 @@ header{
   top:0;
   left:0;
   height: 100px;
-  width: 95vw;
-  margin-left: 1vw;
-  margin-right: 4vw;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 50px;
+  background-color: white;
 }
 header a,
 header a:visited {
@@ -47,6 +48,7 @@ header a:visited {
 }
 .menu li{
   margin-right: 20px;
+  padding: 5px 0;
   font-weight: 500;
 }
 .menu li.active{
@@ -63,6 +65,11 @@ main{
   border-top: 1px solid grey;
   /* background-color: lime; */
 }
+main a,
+main a:hover,
+main a:visited {
+  color: #3367d6;
+}
 .wrapper{
   margin: 0 auto;
   padding: 80px 0;
@@ -73,4 +80,7 @@ main h2{
 }
 main p{
   margin: 30px 0;
+}
+footer{
+  background-color: #f5f5f5;
 }
